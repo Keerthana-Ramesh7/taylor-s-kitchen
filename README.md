@@ -1,5 +1,4 @@
-# taylor-s-kitchen
-React Recipe Finder App with OTP Verfication
+
 # Taylors-kitchen
 React Recipe Finder App with OTP verification(UI challenge Project)
 🍳 Taylor’s Kitchen
@@ -9,10 +8,12 @@ Demo Link: https://codesandbox.io/p/sandbox/taylorss-kitchen-r6c9pn
 👤 User Persona
 Name: Taylor
 Occupation: Busy Professional
-Need: Taylor wants to help in the kitchen when he comes home. He wants to cook based on the ingredients he already has. This app helps him search for recipes quickly and easily using available ingredients.
+Need: Taylor wants to help in the kitchen when he comes home. He wants to cook based on the ingredients he already has.
+This app helps him search for recipes quickly and easily using available ingredients.
 
 🎯 Project Goal
-Build a responsive recipe application that allows users like Taylor to search recipes by ingredients, verify login through OTP, and view cooking instructions.
+Build a responsive recipe application that allows users like Taylor to search recipes by ingredients, verify login through OTP, 
+and view cooking instructions.
 ⚙ Features
 ✅ Welcome screen with friendly intro
 ✅ Login screen (Email)
