@@ -1,0 +1,96 @@
+.app-container {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 30px auto;
+  max-width: 400px;
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ff7043;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5722;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  animation: fadeInOut 2s ease;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    bottom: 10px;
+  }
+  20% {
+    opacity: 1;
+    bottom: 30px;
+  }
+  80% {
+    opacity: 1;
+    bottom: 30px;
+  }
+  100% {
+    opacity: 0;
+    bottom: 10px;
+  }
+}
+
+.exit {
+  background: #999;
+}
